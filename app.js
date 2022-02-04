@@ -39,9 +39,8 @@ document.querySelector(".btn-roll").addEventListener("click", function () {
       } else {
         // Add score
         roundScore += dice;
-        document.querySelector(
-          "#current-" + activePlayer
-        ).textContent = roundScore;
+        document.querySelector("#current-" + activePlayer).textContent =
+          roundScore;
         previousDice = dice;
       }
       // Copy the value of dice to previousDice
